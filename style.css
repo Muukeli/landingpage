@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto';
 }
 
-.headercontainer, .herocontainer {
+.headercontainer, .herocontainer, .footer {
     background-color: #1f2937;
 }
 
@@ -186,4 +186,12 @@ font-size: 20p;
     font-weight: 700;
     border: white solid 2px;
     border-radius: 8px;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    color:#E5E7EB;
+    padding-top: 30px;
+    padding-bottom: 30px
 }
