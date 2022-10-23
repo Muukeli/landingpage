@@ -4,7 +4,7 @@
     
 }
 
-.headercontainer, .herocontainer, .gallerycontainer, .quotecontainer {
+.headercontainer, .herocontainer, .gallerymaster, .quotecontainer {
     padding-left: 350px;
     padding-right: 350px;
 }
@@ -98,8 +98,15 @@ h1 {
     margin-right: 200px;
 }
 
+.gallerymaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 h2 {
-    text-align: center;
+    flex: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 36px;
@@ -108,6 +115,7 @@ h2 {
 }
 
 .gallerycontainer {
+    flex: auto;
     display: flex;
     justify-content: center;
     gap: 5em;
