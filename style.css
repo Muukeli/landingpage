@@ -98,27 +98,41 @@ h1 {
     margin-right: 200px;
 }
 
-
-.galleryimg {
-    width: 100px;
-    height: 100px;
-    border: solid;
-    border-radius: 20px;
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
 }
+
+
 
 .gallerycontainer {
     display: flex;
     justify-content: center;
+    gap: 5em;
+    margin-bottom: 100px;
 }
 
-h2 {
-    text-align: center;
+.galleryimg {
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+    border-radius: 20px;
+    
 }
 
-.gallerycontainer.galleryitem {
-    width: 50px;
-    flex: 1;
-    text-align: center;
+
+.gallerycontainer .galleryitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.gallerytext {
+    width: 150px;
 }
 
 .quotecontainer {
