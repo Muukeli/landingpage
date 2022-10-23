@@ -106,7 +106,6 @@ h1 {
 }
 
 h2 {
-    flex: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 36px;
@@ -115,7 +114,6 @@ h2 {
 }
 
 .gallerycontainer {
-    flex: auto;
     display: flex;
     justify-content: center;
     gap: 5em;
