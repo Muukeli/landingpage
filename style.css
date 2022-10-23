@@ -107,13 +107,18 @@ h2 {
     color: #1f2937;
 }
 
-
-
 .gallerycontainer {
     display: flex;
     justify-content: center;
     gap: 5em;
     margin-bottom: 100px;
+}
+
+.gallerycontainer .galleryitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+
 }
 
 .galleryimg {
@@ -124,15 +129,9 @@ h2 {
     
 }
 
-
-.gallerycontainer .galleryitem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-}
-
 .gallerytext {
     width: 150px;
+    margin-top: 10px;
 }
 
 .quotecontainer {
