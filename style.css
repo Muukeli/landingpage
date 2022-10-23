@@ -123,8 +123,10 @@ h2 {
 
 .quotecontainer {
     padding-top: 200px;
+    padding-bottom: 200px;
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
     
 }
 
