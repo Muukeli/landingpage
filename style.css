@@ -1,0 +1,32 @@
+* { padding: 0; margin: 0; } 
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.headercontainer {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.headerlogo {
+    font-size: 24px;
+}
+
+a {
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+}
+
+li {
+    list-style: none;
+}
+
+
