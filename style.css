@@ -138,3 +138,48 @@ h2 {
     text-align: end;
     font-weight: 700;
 }
+
+.ctacontainer {
+    display: flex;
+    align-items: center;
+    
+    background-color: #3882f6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 10px;
+}
+
+.ctacontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctaheader, .ctatext {
+    margin-left: 150px;
+    color: white;
+}
+
+.ctaheader {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.ctatext {
+font-size: 20p;
+}
+
+.ctabutton {
+    margin-left: auto;
+    margin-right: 150px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: white solid 2px;
+    border-radius: 8px;
+}
