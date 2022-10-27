@@ -4,10 +4,6 @@
     
 }
 
-.headercontainer, .herocontainer, .gallerymaster, .quotecontainer {
-    
-}
-
 .headercontainer, .herocontainer, .gallerycontainer, .quotecontainer, .ctacontainer {
     width: 60%;
 }
@@ -25,27 +21,18 @@ body {
     font-family: 'Roboto';
 }
 
-.headercontainer, .herocontainer, .footer {
-    
-}
-
 .masterheader {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .headercontainer {
     display: flex;
     align-items: center;
-   
-   
-    
     color: white;
     padding-top: 16px;
-    padding-bottom: 16px;
-    
+    padding-bottom: 16px;   
 }
 
 .headerlogo {
@@ -107,8 +94,6 @@ li {
     margin-bottom: 20px;
     margin-top: 20px
 }
-
-
 
 h1 {
     font-size: 48px;
@@ -182,11 +167,9 @@ h2 {
 .ctacontainer {
     display: flex;
     align-items: center;
-    
     background-color: #3882f6;
     padding-top: 40px;
     padding-bottom: 40px;
-    
     border-radius: 10px;
     margin-top: 100px;
     margin-bottom: 100px;
