@@ -9,7 +9,7 @@
 }
 
 .bluecontainer {
-    background-color: #1f2937;
+    background-color: #6a709b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,12 +76,15 @@ li {
 
 }
 
+.herobutton, .ctacontainer {
+    background-color: #99aeda;
+}
+
 .herobutton {
     width: 150px;
     height: 40px;
     border-radius: 8px;
     border: 0px; 
-    background-color: #3882f6;
     color: white;
     font-weight: 700;
     font-size: 18px;
@@ -167,7 +170,6 @@ h2 {
 .ctacontainer {
     display: flex;
     align-items: center;
-    background-color: #3882f6;
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 10px;
@@ -176,7 +178,7 @@ h2 {
 }
 
 .quotecenter {
-    background-color: #E5E7EB;
+    background-color: #c8b6ff;
 }
 
 .ctacenter, .quotecenter {
